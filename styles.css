@@ -1,16 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
+}
+
+nav {
+    background-color: #333;
 }
 
 nav ul {
@@ -18,7 +28,6 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #333;
 }
 
 nav ul li {
@@ -28,18 +37,19 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: 500;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
 
+main {
+    padding: 2em 0;
+}
+
 section {
-    padding: 2em;
-    margin: 2em auto;
-    max-width: 800px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2em 0;
 }
 
 footer {
@@ -51,4 +61,13 @@ footer {
 
 h1, h2, h3 {
     margin: 0.5em 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1em 0;
 }
